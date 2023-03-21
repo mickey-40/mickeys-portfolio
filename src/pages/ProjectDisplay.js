@@ -11,7 +11,7 @@ function ProjectDisplay() {
   return (
     <div className='project'>
       <h1> {project.name} </h1>
-      <img src={project.image} alt='Project display' />
+      <a href={project.projectLink}><img src={project.image} alt='Project display' /></a>
       <p>
         <b>Skills:</b> {project.skill}
       </p>

@@ -12,7 +12,7 @@ function Home() {
           <p>Introduction paragraph. Fill out later.</p>
           <div className='socalMedia'><FontAwesomeIcon icon={faTwitter} />
           <FontAwesomeIcon icon={faLinkedin} />
-          <FontAwesomeIcon icon={faGithub} />
+          <a href='https://github.com/mickey-40'><FontAwesomeIcon icon={faGithub} /></a>
           <FontAwesomeIcon icon={faFacebook} />
           </div>
         </div>

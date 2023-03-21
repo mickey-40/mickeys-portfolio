@@ -8,7 +8,7 @@ function Footer() {
       <div></div>
       <div className='socalMedia'><FontAwesomeIcon icon={faTwitter} />
       <FontAwesomeIcon icon={faLinkedin} />
-      <FontAwesomeIcon icon={faGithub} />
+      <a href='https://github.com/mickey-40'><FontAwesomeIcon icon={faGithub} /></a>
       <FontAwesomeIcon icon={faFacebook} /></div>
       <p> &copy; 2022 mickey.com</p>
     </div>
