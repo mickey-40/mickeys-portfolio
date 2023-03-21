@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faLinkedin, faGithub, faFacebook} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 import '../styles/Home.css'
 
 function Home() {
@@ -9,11 +9,12 @@ function Home() {
       <div className='about'>
         <h2>Hi, My name is Mickey</h2>
         <div className='prompt'>
-          <p>Introduction paragraph. Fill out later.</p>
-          <div className='socalMedia'><FontAwesomeIcon icon={faTwitter} />
-          <FontAwesomeIcon icon={faLinkedin} />
+          <p>As an entry-level software engineer with five years of teaching experience and a background in electrical work spanning over a decade, I am eager to bring my unique blend of technical expertise, practical problem-solving skills, and effective communication to a software engineering role. </p>
+          <div className='socalMedia'>
+          {/* <FontAwesomeIcon icon={faTwitter} /> */}
+          <a href='https://www.linkedin.com/in/mickey-arnold'><FontAwesomeIcon icon={faLinkedin} /></a>
           <a href='https://github.com/mickey-40'><FontAwesomeIcon icon={faGithub} /></a>
-          <FontAwesomeIcon icon={faFacebook} />
+          {/* <FontAwesomeIcon icon={faFacebook} /> */}
           </div>
         </div>
       </div>

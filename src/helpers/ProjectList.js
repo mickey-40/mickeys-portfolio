@@ -8,25 +8,29 @@ export const ProjectList = [
     name: "Middle Math Quiz", 
     image: Proj1,
     skill: 'HTML, CSS, Javascript, JSON',
-    projectLink: 'https://mickey-40.github.io/middlemathquiz.github.io/'
+    projectLink: 'https://mickey-40.github.io/middlemathquiz.github.io/',
+    githubLink: 'https://github.com/mickey-40/middlemathquiz.github.io'
   },
   {
     name: "Job Tracker", 
     image: Proj2,
     skill: 'HTML, CSS, Javascript, EJS, Express.js, Bootstrap',
-    projectLink: ''
+    projectLink: 'https://job-tracker-project.herokuapp.com/',
+    githubLink: 'https://github.com/mickey-40/jobTracker.github.io'
   },
   {
     name: "Journey", 
     image: Proj3,
     skill: 'React.js, Javascript, MongoDB',
-    projectLink: ''
+    projectLink: 'https://journey-frontend.herokuapp.com/',
+    githubLink: 'https://github.com/jasonaul/journey-frontend'
   },
   {
     name: "Burgers and Beers", 
     image: Proj4,
     skill: 'React.js, Flask, Python, Postgres, Bootstrap',
-    projectLink: ''
+    projectLink: 'https://burgers-and-beers.herokuapp.com/',
+    githubLink: 'https://github.com/mickey-40/burgers_and_beers_frontend'
   }
 
 ]

@@ -12,10 +12,11 @@ function ProjectDisplay() {
     <div className='project'>
       <h1> {project.name} </h1>
       <a href={project.projectLink}><img src={project.image} alt='Project display' /></a>
+      <sub>Click on image to go to deployed site.</sub>
       <p>
         <b>Skills:</b> {project.skill}
       </p>
-      <FontAwesomeIcon icon={faGithub}/>
+      <a href={project.githubLink}><FontAwesomeIcon icon={faGithub}/></a>
     </div>
   )
 }
