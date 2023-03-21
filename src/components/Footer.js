@@ -6,10 +6,12 @@ function Footer() {
   return (
     <div className='footer'>
       <div>Contact me by:</div>
-      {/* <div className='socalMedia'><FontAwesomeIcon icon={faTwitter} /> */}
+      <div className='socialMedia'>
+      {/* <FontAwesomeIcon icon={faTwitter} /> */}
       <FontAwesomeIcon icon={faLinkedin} />
       <a href='https://github.com/mickey-40'><FontAwesomeIcon icon={faGithub} /></a>
-      {/* <FontAwesomeIcon icon={faFacebook} /></div> */}
+      {/* <FontAwesomeIcon icon={faFacebook} /> */}
+      </div>
       <p> &copy; 2023 mickeys-portfolio.netlify.app</p>
     </div>
   )
