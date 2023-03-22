@@ -8,8 +8,8 @@ function Footer() {
       <div>Contact me by:</div>
       <div className='socialMedia'>
       {/* <FontAwesomeIcon icon={faTwitter} /> */}
-      <FontAwesomeIcon icon={faLinkedin} />
-      <a href='https://github.com/mickey-40'><FontAwesomeIcon icon={faGithub} /></a>
+      <a href='https://www.linkedin.com/in/mickey-arnold/' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faLinkedin} /></a>
+      <a href='https://github.com/mickey-40' target='_blank' rel='noreferrer' ><FontAwesomeIcon icon={faGithub} /></a>
       {/* <FontAwesomeIcon icon={faFacebook} /> */}
       </div>
       <p> &copy; 2023 mickeys-portfolio.netlify.app</p>

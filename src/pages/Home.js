@@ -9,11 +9,11 @@ function Home() {
       <div className='about'>
         <h2>Hi, My name is Mickey</h2>
         <div className='prompt'>
-          <p>As an entry-level software engineer with five years of teaching experience and a background in electrical work spanning over a decade, I am eager to bring my unique blend of technical expertise, practical problem-solving skills, and effective communication to a software engineering role. </p>
+          <p>As an software engineer with five years of teaching experience and a background in electrical work spanning over a decade, I am eager to bring my unique blend of technical expertise, practical problem-solving skills, and effective communication to a software engineering role. </p>
           <div className='socalMedia'>
           {/* <FontAwesomeIcon icon={faTwitter} /> */}
-          <a href='https://www.linkedin.com/in/mickey-arnold'><FontAwesomeIcon icon={faLinkedin} /></a>
-          <a href='https://github.com/mickey-40'><FontAwesomeIcon icon={faGithub} /></a>
+          <a href='https://www.linkedin.com/in/mickey-arnold' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faLinkedin} /></a>
+          <a href='https://github.com/mickey-40' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faGithub} /></a>
           {/* <FontAwesomeIcon icon={faFacebook} /> */}
           </div>
         </div>
@@ -24,7 +24,7 @@ function Home() {
         <ol className='list'>
           <li className='item'>
             <h2>Front-End</h2>
-            <span>ReactJS, Redux, HTML, CSS, NPM, BootStrap, StyledComponents</span>
+            <span>ReactJS, Redux, HTML, CSS, BootStrap, StyledComponents</span>
           </li>
           <li className='item'>
             <h2>Back-End</h2>
