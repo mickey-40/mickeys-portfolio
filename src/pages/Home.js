@@ -1,6 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import ProjectItem from '../components/ProjectItem'
+import { ProjectList } from '../helpers/ProjectList'
 import '../styles/Home.css'
 
 function Home() {
@@ -19,8 +21,7 @@ function Home() {
         </div>
       </div>
       <div className='skills'>
-
-        <h1>Skills</h1>
+        <h1 className='skillsh1'>Skills</h1>
         <ol className='list'>
           <li className='item'>
             <h2>Front-End</h2>
@@ -36,6 +37,14 @@ function Home() {
           </li> */}
         </ol>
       </div>
+      <div className='projects'>
+      <h1> My Personal Projects</h1>
+      <div className='projectList'>
+        {ProjectList.map((project, idx )=>{
+          return <ProjectItem id={idx} name={project.name} image={project.image}/>
+        })}
+      </div>
+    </div>
     </div>
   )
 }

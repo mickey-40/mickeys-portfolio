@@ -5,6 +5,20 @@
   color: #3e497a;
 }
 
+.skillsh1 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.projects {
+  background-color: #21325e;
+  color: #f0f0f0;
+}
+
+ol {
+  margin-top: auto;
+}
+
 .about {
   width: 100%;
   height: calc(100vh - 100px);
@@ -15,6 +29,7 @@
   text-align: center;
   background-color: #21325e;
   color: #f0f0f0;
+  
 }
 
 .about h2 {
