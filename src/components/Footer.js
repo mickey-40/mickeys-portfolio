@@ -5,7 +5,9 @@ import '../styles/Footer.css'
 function Footer() {
   return (
     <div className='footer'>
-      <div>Contact me by:</div>
+      <div>
+      <p>Contact me by:</p>
+      </div>
       <div className='socialMedia'>
       {/* <FontAwesomeIcon icon={faTwitter} /> */}
       <a href='https://www.linkedin.com/in/mickey-arnold/' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faLinkedin} /></a>

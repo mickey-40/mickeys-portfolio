@@ -20,7 +20,7 @@ function Experience() {
         <VerticalTimelineElement 
           className='vertical-timeline-element--education' 
           date='2012-2016' 
-          iconStyle={{background: '#3e497a', color: '#fff'}}
+          iconStyle={{background: '#e9d35b', color: '#3e497a'}}
           icon={<FontAwesomeIcon icon={faSchool} />}>
           <p>Degree Interdisciplinary Studies (BS) from University of Houston-Downtown</p>
         </VerticalTimelineElement>        

@@ -24,16 +24,16 @@ function Home() {
         <ol className='list'>
           <li className='item'>
             <h2>Front-End</h2>
-            <span>ReactJS, Redux, HTML, CSS, BootStrap, StyledComponents</span>
+            <span>JavaScript, ReactJS, Redux, HTML, CSS, StyledComponents, BootStrap </span>
           </li>
           <li className='item'>
             <h2>Back-End</h2>
-            <span>NodeJS, ExpressJS, GraphQL, MySQL, MongoDB</span>
+            <span>JavaScript, Python, NodeJS, ExpressJS, GraphQL, MySQL, MongoDB</span>
           </li>
-          <li className='item'>
+          {/* <li className='item'>
             <h2>Languages</h2>
             <span>JavaScript, Python</span>
-          </li>
+          </li> */}
         </ol>
       </div>
     </div>
