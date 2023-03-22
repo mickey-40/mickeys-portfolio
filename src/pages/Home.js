@@ -31,7 +31,7 @@ function Home() {
             <span>NodeJS, ExpressJS, GraphQL, MySQL, MongoDB</span>
           </li>
           <li className='item'>
-            <h2>Langages</h2>
+            <h2>Languages</h2>
             <span>JavaScript, Python</span>
           </li>
         </ol>
