@@ -2,6 +2,7 @@ import Proj1 from '../assets/Proj1.png'
 import Proj2 from '../assets/Proj2.jpg'
 import Proj3 from '../assets/Proj3.jpg'
 import Proj4 from '../assets/Proj4.jpg'
+import Proj5 from '../assets/Proj5.jpg'
 
 export const ProjectList = [
   {
@@ -31,6 +32,13 @@ export const ProjectList = [
     skill: 'React.js, Flask, Python, Postgres, Bootstrap',
     projectLink: 'https://burgers-and-beers.herokuapp.com/',
     githubLink: 'https://github.com/mickey-40/burgers_and_beers_frontend'
+  },
+  {
+    name: "YouTube Clone", 
+    image: Proj5,
+    skill: 'React.js, RapidAPI, Material UI 5',
+    projectLink: 'https://youtube-clone1981.netlify.app/',
+    githubLink: 'https://github.com/mickey-40/youtube_clone'
   }
 
 ]
