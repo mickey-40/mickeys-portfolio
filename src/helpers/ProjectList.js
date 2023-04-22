@@ -3,6 +3,7 @@ import Proj2 from '../assets/Proj2.jpg'
 import Proj3 from '../assets/Proj3.jpg'
 import Proj4 from '../assets/Proj4.jpg'
 import Proj5 from '../assets/Proj5.jpg'
+import Proj6 from '../assets/Proj6.jpeg'
 
 export const ProjectList = [
   {
@@ -39,6 +40,13 @@ export const ProjectList = [
     skill: 'React.js, RapidAPI, Material UI 5',
     projectLink: 'https://youtube-clone1981.netlify.app/',
     githubLink: 'https://github.com/mickey-40/youtube_clone'
+  },
+  {
+    name: "Mickey's Exercise App", 
+    image: Proj6,
+    skill: 'React.js, RapidAPI, Material UI 5',
+    projectLink: 'https://mickeys-exercise-app.netlify.app/',
+    githubLink: 'https://github.com/mickey-40/gym-exercises'
   }
 
 ]
