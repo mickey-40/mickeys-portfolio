@@ -4,6 +4,8 @@ import Proj3 from '../assets/Proj3.jpg'
 import Proj4 from '../assets/Proj4.jpg'
 import Proj5 from '../assets/Proj5.jpg'
 import Proj6 from '../assets/Proj6.jpeg'
+import Proj7 from '../assets/Proj7.jpeg'
+
 
 export const ProjectList = [
   {
@@ -47,6 +49,13 @@ export const ProjectList = [
     skill: 'React.js, RapidAPI, Material UI 5',
     projectLink: 'https://mickeys-exercise-app.netlify.app/',
     githubLink: 'https://github.com/mickey-40/gym-exercises'
+  },
+  {
+    name: "Job Search App", 
+    image: Proj7,
+    skill: 'React Native, RapidAPI(Work in Progess)',
+    projectLink: '',
+    githubLink: 'https://github.com/mickey-40/jobsearch_app'
   }
 
 ]
