@@ -30,13 +30,6 @@ export const ProjectList = [
     githubLink: 'https://github.com/jasonaul/journey-frontend'
   },
   {
-    name: "Burgers and Beers", 
-    image: Proj4,
-    skill: 'React.js, Flask, Python, Postgres, Bootstrap',
-    projectLink: 'https://burgers-and-beers.herokuapp.com/',
-    githubLink: 'https://github.com/mickey-40/burgers_and_beers_frontend'
-  },
-  {
     name: "YouTube Clone", 
     image: Proj5,
     skill: 'React.js, RapidAPI, Material UI 5',
@@ -50,12 +43,6 @@ export const ProjectList = [
     projectLink: 'https://mickeys-exercise-app.netlify.app/',
     githubLink: 'https://github.com/mickey-40/gym-exercises'
   },
-  {
-    name: "Job Search App", 
-    image: Proj7,
-    skill: 'React Native, RapidAPI(Work in Progess)',
-    projectLink: '',
-    githubLink: 'https://github.com/mickey-40/jobsearch_app'
-  }
+  
 
 ]
